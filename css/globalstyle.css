@@ -1,0 +1,77 @@
+:root {
+    --primary-color-light: #5DA0FB;
+    --primary-color-main:#3E8DF7;
+    --primary-color-dark: #1C79F6;
+    --secondary-color-light: #F5CD70;
+    --secondary-color-main: #F5BE41;
+    --secondary-color-dark: #F8B214;
+    --neutral-color-white: #FFFFFF;
+    --neutral-color-25: #F9F9F9;
+    --neutral-color-50: #EAEAEA;
+    --neutral-color-100: #BDBDBF;
+    --neutral-color-200: #9D9D9F;    
+    --neutral-color-300: #707174;    
+    --neutral-color-400: #555559;    
+    --neutral-color-500: #2A2B2F;
+    --neutral-color-black: #000000;
+    --offer-background-color: #EBF3E9;
+    --offer-text-color: #3C8825;
+
+
+    --font-size-h1-desktop: 2.5rem;
+    --font-size-h2-desktop: 1.75rem;
+    --font-size-h3-desktop: 1.25rem;
+    --font-size-subtitle-desktop: 1.125rem;
+    --font-size-body-desktop: 1rem;
+    --font-size-button-desktop: 1rem;
+    --font-size-subtitle2-desktop: 0.875rem;
+    --font-size-caption-desktop: 0.875rem;
+    --font-size-overline-desktop: 0.75rem;
+
+    --font-size-h1-mobile: 2rem;
+    --font-size-h2-mobile: 1.75rem;
+    --font-size-h3-mobile: 1.125rem;
+    --font-size-subtitle-mobile: 1rem;
+    --font-size-body-mobile: 0.875rem;
+    --font-size-button-mobile: 0.875rem;
+    --font-size-caption-mobile: 0.75rem;
+    --font-size-overline-mobile: 0.625rem;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url(../fonts/Vazir-Regular.woff2) format('woff2'),
+         url(../fonts/Vazir-Medium.woff2) format('woff2'),
+         url(../fonts/Vazir-Bold.woff2) format('woff2'),
+         url(../fonts/Vazir-Black.woff2) format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: Vazir;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: var(--neutral-color-300);
+}
+
+input[type=date]::-webkit-datetime-edit-text,
+input[type=date]::-webkit-datetime-edit-year-field,
+input[type=date]::-webkit-datetime-edit-month-field,
+input[type=date]::-webkit-datetime-edit-day-field,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
